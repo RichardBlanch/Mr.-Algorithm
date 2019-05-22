@@ -17,34 +17,33 @@
 		63422338228F095200F9CA92 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63422337228F095200F9CA92 /* Networker.swift */; };
 		6342233E228F09A600F9CA92 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342233D228F09A600F9CA92 /* Algorithm.swift */; };
 		63422340228F150400F9CA92 /* ErrorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342233F228F150400F9CA92 /* ErrorRequest.swift */; };
-		63D7792822960E7000246DA8 /* Einstein.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B2BB3C2295FDF300762527 /* Einstein.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63B2BB352295FDF300762527 /* PBXContainerItemProxy */ = {
+		63D7793422960F0400246DA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63B2BB2E2295FDF300762527 /* Einstein.xcodeproj */;
+			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 630445E5227BADB200A29319;
 			remoteInfo = "Einstein iOS";
 		};
-		63B2BB372295FDF300762527 /* PBXContainerItemProxy */ = {
+		63D7793622960F0400246DA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63B2BB2E2295FDF300762527 /* Einstein.xcodeproj */;
+			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 630445F3227BAE2000A29319;
 			remoteInfo = "Einstein watchOS";
 		};
-		63B2BB392295FDF300762527 /* PBXContainerItemProxy */ = {
+		63D7793822960F0400246DA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63B2BB2E2295FDF300762527 /* Einstein.xcodeproj */;
+			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 63044600227BAE5200A29319;
 			remoteInfo = "Einstein tvOS";
 		};
-		63B2BB3B2295FDF300762527 /* PBXContainerItemProxy */ = {
+		63D7793A22960F0400246DA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63B2BB2E2295FDF300762527 /* Einstein.xcodeproj */;
+			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 630C7054228DFC2900AA54DE;
 			remoteInfo = "Einstein macOS";
@@ -75,7 +74,7 @@
 		63422337228F095200F9CA92 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 		6342233D228F09A600F9CA92 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		6342233F228F150400F9CA92 /* ErrorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRequest.swift; sourceTree = "<group>"; };
-		63B2BB2E2295FDF300762527 /* Einstein.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Einstein.xcodeproj; path = Einstein/Einstein.xcodeproj; sourceTree = "<group>"; };
+		63D7792D22960F0400246DA8 /* Einstein.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Einstein.xcodeproj; path = Einstein/Einstein.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D7792822960E7000246DA8 /* Einstein.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,18 +165,18 @@
 		63B2BAC42295FB2400762527 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63B2BB2E2295FDF300762527 /* Einstein.xcodeproj */,
+				63D7792D22960F0400246DA8 /* Einstein.xcodeproj */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		63B2BB2F2295FDF300762527 /* Products */ = {
+		63D7792E22960F0400246DA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63B2BB362295FDF300762527 /* Einstein.framework */,
-				63B2BB382295FDF300762527 /* Einstein.framework */,
-				63B2BB3A2295FDF300762527 /* Einstein.framework */,
-				63B2BB3C2295FDF300762527 /* Einstein.framework */,
+				63D7793522960F0400246DA8 /* Einstein.framework */,
+				63D7793722960F0400246DA8 /* Einstein.framework */,
+				63D7793922960F0400246DA8 /* Einstein.framework */,
+				63D7793B22960F0400246DA8 /* Einstein.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,8 +228,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 63B2BB2F2295FDF300762527 /* Products */;
-					ProjectRef = 63B2BB2E2295FDF300762527 /* Einstein.xcodeproj */;
+					ProductGroup = 63D7792E22960F0400246DA8 /* Products */;
+					ProjectRef = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -242,32 +240,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		63B2BB362295FDF300762527 /* Einstein.framework */ = {
+		63D7793522960F0400246DA8 /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63B2BB352295FDF300762527 /* PBXContainerItemProxy */;
+			remoteRef = 63D7793422960F0400246DA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63B2BB382295FDF300762527 /* Einstein.framework */ = {
+		63D7793722960F0400246DA8 /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63B2BB372295FDF300762527 /* PBXContainerItemProxy */;
+			remoteRef = 63D7793622960F0400246DA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63B2BB3A2295FDF300762527 /* Einstein.framework */ = {
+		63D7793922960F0400246DA8 /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63B2BB392295FDF300762527 /* PBXContainerItemProxy */;
+			remoteRef = 63D7793822960F0400246DA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63B2BB3C2295FDF300762527 /* Einstein.framework */ = {
+		63D7793B22960F0400246DA8 /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63B2BB3B2295FDF300762527 /* PBXContainerItemProxy */;
+			remoteRef = 63D7793A22960F0400246DA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

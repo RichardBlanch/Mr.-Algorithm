@@ -17,32 +17,32 @@
 		63422338228F095200F9CA92 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63422337228F095200F9CA92 /* Networker.swift */; };
 		6342233E228F09A600F9CA92 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342233D228F09A600F9CA92 /* Algorithm.swift */; };
 		63422340228F150400F9CA92 /* ErrorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342233F228F150400F9CA92 /* ErrorRequest.swift */; };
-		63DFF9AF229615A000BADB7F /* Einstein.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DFF9AE2296159500BADB7F /* Einstein.framework */; };
+		63DFF9BF2296172D00BADB7F /* Einstein.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63DFF9BE2296170800BADB7F /* Einstein.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63DFF9A72296159500BADB7F /* PBXContainerItemProxy */ = {
+		63DFF9B72296170800BADB7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 63DFF9A02296159500BADB7F /* Einstein.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 630445E5227BADB200A29319;
 			remoteInfo = "Einstein iOS";
 		};
-		63DFF9A92296159500BADB7F /* PBXContainerItemProxy */ = {
+		63DFF9B92296170800BADB7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 63DFF9A02296159500BADB7F /* Einstein.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 630445F3227BAE2000A29319;
 			remoteInfo = "Einstein watchOS";
 		};
-		63DFF9AB2296159500BADB7F /* PBXContainerItemProxy */ = {
+		63DFF9BB2296170800BADB7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 63DFF9A02296159500BADB7F /* Einstein.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 63044600227BAE5200A29319;
 			remoteInfo = "Einstein tvOS";
 		};
-		63DFF9AD2296159500BADB7F /* PBXContainerItemProxy */ = {
+		63DFF9BD2296170800BADB7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 63DFF9A02296159500BADB7F /* Einstein.xcodeproj */;
 			proxyType = 2;
@@ -75,7 +75,7 @@
 		63422337228F095200F9CA92 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 		6342233D228F09A600F9CA92 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		6342233F228F150400F9CA92 /* ErrorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRequest.swift; sourceTree = "<group>"; };
-		63DFF9A02296159500BADB7F /* Einstein.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Einstein.xcodeproj; path = ../../../Einstein/Einstein.xcodeproj; sourceTree = "<group>"; };
+		63DFF9A02296159500BADB7F /* Einstein.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Einstein.xcodeproj; path = ../../../Desktop/Work/Einstein/Einstein.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DFF9AF229615A000BADB7F /* Einstein.framework in Frameworks */,
+				63DFF9BF2296172D00BADB7F /* Einstein.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,13 +172,13 @@
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		63DFF9A12296159500BADB7F /* Products */ = {
+		63DFF9B12296170800BADB7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63DFF9A82296159500BADB7F /* Einstein.framework */,
-				63DFF9AA2296159500BADB7F /* Einstein.framework */,
-				63DFF9AC2296159500BADB7F /* Einstein.framework */,
-				63DFF9AE2296159500BADB7F /* Einstein.framework */,
+				63DFF9B82296170800BADB7F /* Einstein.framework */,
+				63DFF9BA2296170800BADB7F /* Einstein.framework */,
+				63DFF9BC2296170800BADB7F /* Einstein.framework */,
+				63DFF9BE2296170800BADB7F /* Einstein.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 63DFF9A12296159500BADB7F /* Products */;
+					ProductGroup = 63DFF9B12296170800BADB7F /* Products */;
 					ProjectRef = 63DFF9A02296159500BADB7F /* Einstein.xcodeproj */;
 				},
 			);
@@ -242,32 +242,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		63DFF9A82296159500BADB7F /* Einstein.framework */ = {
+		63DFF9B82296170800BADB7F /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63DFF9A72296159500BADB7F /* PBXContainerItemProxy */;
+			remoteRef = 63DFF9B72296170800BADB7F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63DFF9AA2296159500BADB7F /* Einstein.framework */ = {
+		63DFF9BA2296170800BADB7F /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63DFF9A92296159500BADB7F /* PBXContainerItemProxy */;
+			remoteRef = 63DFF9B92296170800BADB7F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63DFF9AC2296159500BADB7F /* Einstein.framework */ = {
+		63DFF9BC2296170800BADB7F /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63DFF9AB2296159500BADB7F /* PBXContainerItemProxy */;
+			remoteRef = 63DFF9BB2296170800BADB7F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63DFF9AE2296159500BADB7F /* Einstein.framework */ = {
+		63DFF9BE2296170800BADB7F /* Einstein.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Einstein.framework;
-			remoteRef = 63DFF9AD2296159500BADB7F /* PBXContainerItemProxy */;
+			remoteRef = 63DFF9BD2296170800BADB7F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

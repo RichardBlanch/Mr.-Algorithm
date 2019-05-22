@@ -19,37 +19,6 @@
 		63422340228F150400F9CA92 /* ErrorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6342233F228F150400F9CA92 /* ErrorRequest.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		63D7793422960F0400246DA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 630445E5227BADB200A29319;
-			remoteInfo = "Einstein iOS";
-		};
-		63D7793622960F0400246DA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 630445F3227BAE2000A29319;
-			remoteInfo = "Einstein watchOS";
-		};
-		63D7793822960F0400246DA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 63044600227BAE5200A29319;
-			remoteInfo = "Einstein tvOS";
-		};
-		63D7793A22960F0400246DA8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 630C7054228DFC2900AA54DE;
-			remoteInfo = "Einstein macOS";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		630C7087228DFD2000AA54DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -74,7 +43,44 @@
 		63422337228F095200F9CA92 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
 		6342233D228F09A600F9CA92 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
 		6342233F228F150400F9CA92 /* ErrorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRequest.swift; sourceTree = "<group>"; };
-		63D7792D22960F0400246DA8 /* Einstein.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Einstein.xcodeproj; path = Einstein/Einstein.xcodeproj; sourceTree = "<group>"; };
+		63AED50B22960FDC005F88CD /* GrioCommon_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrioCommon_iOS.h; sourceTree = "<group>"; };
+		63AED50C22960FDC005F88CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AED50E22960FDC005F88CD /* Einstein_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Einstein_tvOS.h; sourceTree = "<group>"; };
+		63AED50F22960FDC005F88CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AED51022960FDC005F88CD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		63AED51222960FDC005F88CD /* Einstein_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Einstein_macOS.h; sourceTree = "<group>"; };
+		63AED51322960FDC005F88CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AED51622960FDC005F88CD /* FetchedResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedResultsViewController.swift; sourceTree = "<group>"; };
+		63AED51722960FDC005F88CD /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
+		63AED51822960FDC005F88CD /* NSManagedObjectConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectConvertible.swift; sourceTree = "<group>"; };
+		63AED51B22960FDC005F88CD /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		63AED51C22960FDC005F88CD /* URLSession+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Networking.swift"; sourceTree = "<group>"; };
+		63AED51D22960FDC005F88CD /* Bravos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bravos.h; sourceTree = "<group>"; };
+		63AED51E22960FDC005F88CD /* GrioError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrioError.swift; sourceTree = "<group>"; };
+		63AED51F22960FDC005F88CD /* EmptyAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyAPIResponse.swift; sourceTree = "<group>"; };
+		63AED52022960FDC005F88CD /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		63AED52122960FDC005F88CD /* HTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		63AED52222960FDC005F88CD /* EmptyPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyPayload.swift; sourceTree = "<group>"; };
+		63AED52322960FDC005F88CD /* APIRequestLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestLoader.swift; sourceTree = "<group>"; };
+		63AED52522960FDC005F88CD /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		63AED52622960FDC005F88CD /* ReachabilityManagerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManagerListener.swift; sourceTree = "<group>"; };
+		63AED52722960FDC005F88CD /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		63AED52822960FDC005F88CD /* APIRequestMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestMonitor.swift; sourceTree = "<group>"; };
+		63AED52922960FDC005F88CD /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		63AED52B22960FDC005F88CD /* FeatureFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureFlag.swift; sourceTree = "<group>"; };
+		63AED52C22960FDC005F88CD /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		63AED52E22960FDC005F88CD /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		63AED52F22960FDC005F88CD /* DispatchQueue+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extension.swift"; sourceTree = "<group>"; };
+		63AED53022960FDC005F88CD /* Instantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiable.swift; sourceTree = "<group>"; };
+		63AED53122960FDC005F88CD /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		63AED53222960FDC005F88CD /* JSONSerialization+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONSerialization+Extension.swift"; sourceTree = "<group>"; };
+		63AED53422960FDC005F88CD /* ConfigurationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationKey.swift; sourceTree = "<group>"; };
+		63AED53522960FDC005F88CD /* StringKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringKey.swift; sourceTree = "<group>"; };
+		63AED53722960FDC005F88CD /* DeepLinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkable.swift; sourceTree = "<group>"; };
+		63AED53822960FDC005F88CD /* DeepLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkManager.swift; sourceTree = "<group>"; };
+		63AED53922960FDC005F88CD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		63AED53B22960FDC005F88CD /* Einstein_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Einstein_watchOS.h; sourceTree = "<group>"; };
+		63AED53C22960FDC005F88CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,23 +168,161 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		63AED50922960FDC005F88CD /* Einstein copy */ = {
+			isa = PBXGroup;
+			children = (
+				63AED50A22960FDC005F88CD /* Einstein iOS */,
+				63AED50D22960FDC005F88CD /* Einstein tvOS */,
+				63AED51022960FDC005F88CD /* LICENSE */,
+				63AED51122960FDC005F88CD /* Einstein macOS */,
+				63AED51422960FDC005F88CD /* Shared */,
+				63AED53922960FDC005F88CD /* .gitignore */,
+				63AED53A22960FDC005F88CD /* Einstein watchOS */,
+			);
+			path = "Einstein copy";
+			sourceTree = "<group>";
+		};
+		63AED50A22960FDC005F88CD /* Einstein iOS */ = {
+			isa = PBXGroup;
+			children = (
+				63AED50B22960FDC005F88CD /* GrioCommon_iOS.h */,
+				63AED50C22960FDC005F88CD /* Info.plist */,
+			);
+			path = "Einstein iOS";
+			sourceTree = "<group>";
+		};
+		63AED50D22960FDC005F88CD /* Einstein tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				63AED50E22960FDC005F88CD /* Einstein_tvOS.h */,
+				63AED50F22960FDC005F88CD /* Info.plist */,
+			);
+			path = "Einstein tvOS";
+			sourceTree = "<group>";
+		};
+		63AED51122960FDC005F88CD /* Einstein macOS */ = {
+			isa = PBXGroup;
+			children = (
+				63AED51222960FDC005F88CD /* Einstein_macOS.h */,
+				63AED51322960FDC005F88CD /* Info.plist */,
+			);
+			path = "Einstein macOS";
+			sourceTree = "<group>";
+		};
+		63AED51422960FDC005F88CD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				63AED51522960FDC005F88CD /* Core Data */,
+				63AED51922960FDC005F88CD /* Networking */,
+				63AED52A22960FDC005F88CD /* Features */,
+				63AED52D22960FDC005F88CD /* Extensions */,
+				63AED53322960FDC005F88CD /* Constant */,
+				63AED53622960FDC005F88CD /* DeepLink */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		63AED51522960FDC005F88CD /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				63AED51622960FDC005F88CD /* FetchedResultsViewController.swift */,
+				63AED51722960FDC005F88CD /* PersistentContainer.swift */,
+				63AED51822960FDC005F88CD /* NSManagedObjectConvertible.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		63AED51922960FDC005F88CD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				63AED51A22960FDC005F88CD /* Mocking */,
+				63AED51D22960FDC005F88CD /* Bravos.h */,
+				63AED51E22960FDC005F88CD /* GrioError.swift */,
+				63AED51F22960FDC005F88CD /* EmptyAPIResponse.swift */,
+				63AED52022960FDC005F88CD /* HTTPMethod.swift */,
+				63AED52122960FDC005F88CD /* HTTPHeader.swift */,
+				63AED52222960FDC005F88CD /* EmptyPayload.swift */,
+				63AED52322960FDC005F88CD /* APIRequestLoader.swift */,
+				63AED52422960FDC005F88CD /* Reachability */,
+				63AED52722960FDC005F88CD /* API.swift */,
+				63AED52822960FDC005F88CD /* APIRequestMonitor.swift */,
+				63AED52922960FDC005F88CD /* APIRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		63AED51A22960FDC005F88CD /* Mocking */ = {
+			isa = PBXGroup;
+			children = (
+				63AED51B22960FDC005F88CD /* MockURLProtocol.swift */,
+				63AED51C22960FDC005F88CD /* URLSession+Networking.swift */,
+			);
+			path = Mocking;
+			sourceTree = "<group>";
+		};
+		63AED52422960FDC005F88CD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				63AED52522960FDC005F88CD /* ReachabilityManager.swift */,
+				63AED52622960FDC005F88CD /* ReachabilityManagerListener.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		63AED52A22960FDC005F88CD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				63AED52B22960FDC005F88CD /* FeatureFlag.swift */,
+				63AED52C22960FDC005F88CD /* Configuration.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		63AED52D22960FDC005F88CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63AED52E22960FDC005F88CD /* UIAlertController+Extension.swift */,
+				63AED52F22960FDC005F88CD /* DispatchQueue+Extension.swift */,
+				63AED53022960FDC005F88CD /* Instantiable.swift */,
+				63AED53122960FDC005F88CD /* UITableViewCell+Extension.swift */,
+				63AED53222960FDC005F88CD /* JSONSerialization+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63AED53322960FDC005F88CD /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				63AED53422960FDC005F88CD /* ConfigurationKey.swift */,
+				63AED53522960FDC005F88CD /* StringKey.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		63AED53622960FDC005F88CD /* DeepLink */ = {
+			isa = PBXGroup;
+			children = (
+				63AED53722960FDC005F88CD /* DeepLinkable.swift */,
+				63AED53822960FDC005F88CD /* DeepLinkManager.swift */,
+			);
+			path = DeepLink;
+			sourceTree = "<group>";
+		};
+		63AED53A22960FDC005F88CD /* Einstein watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				63AED53B22960FDC005F88CD /* Einstein_watchOS.h */,
+				63AED53C22960FDC005F88CD /* Info.plist */,
+			);
+			path = "Einstein watchOS";
+			sourceTree = "<group>";
+		};
 		63B2BAC42295FB2400762527 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63D7792D22960F0400246DA8 /* Einstein.xcodeproj */,
+				63AED50922960FDC005F88CD /* Einstein copy */,
 			);
 			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		63D7792E22960F0400246DA8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63D7793522960F0400246DA8 /* Einstein.framework */,
-				63D7793722960F0400246DA8 /* Einstein.framework */,
-				63D7793922960F0400246DA8 /* Einstein.framework */,
-				63D7793B22960F0400246DA8 /* Einstein.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,49 +370,12 @@
 			mainGroup = 630C7080228DFD2000AA54DE;
 			productRefGroup = 630C708A228DFD2000AA54DE /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 63D7792E22960F0400246DA8 /* Products */;
-					ProjectRef = 63D7792D22960F0400246DA8 /* Einstein.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				630C7088228DFD2000AA54DE /* Mr. Algorithm */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		63D7793522960F0400246DA8 /* Einstein.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Einstein.framework;
-			remoteRef = 63D7793422960F0400246DA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		63D7793722960F0400246DA8 /* Einstein.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Einstein.framework;
-			remoteRef = 63D7793622960F0400246DA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		63D7793922960F0400246DA8 /* Einstein.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Einstein.framework;
-			remoteRef = 63D7793822960F0400246DA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		63D7793B22960F0400246DA8 /* Einstein.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Einstein.framework;
-			remoteRef = 63D7793A22960F0400246DA8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		630C7085228DFD2000AA54DE /* Sources */ = {

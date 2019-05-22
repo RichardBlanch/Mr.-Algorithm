@@ -1,0 +1,3 @@
+[submodule "Mr. Algorithm/Frameworks/Einstein"]
+	path = Mr. Algorithm/Frameworks/Einstein
+	url = git@github.com:RichardBlanch/Einstein.git
